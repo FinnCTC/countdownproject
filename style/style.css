@@ -1,0 +1,36 @@
+@font-face {
+    font-family: Avengers;
+    src: url('../fonts/avenge.ttf') format('truetype');
+}
+
+body {
+    background-color: #044D29;
+}
+
+.header {
+    border: solid 4px black;
+    border-radius: 75px;
+    background-color: #1F8A70;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    height: fit-content;
+}
+
+.header h1 {
+    color: gray;
+    text-align: center;
+    font-family: Avengers;
+    font-size: 73px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.countdown {
+    text-align: center;
+    font-family: Avengers;
+    color: gray;
+    font-size: 65px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
