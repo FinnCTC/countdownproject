@@ -26,11 +26,112 @@ body {
     -webkit-text-stroke-color: black;
 }
 
-.countdown {
+#navbar {
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    background-color:#B5E655;
+    border: solid 3px black;
+    text-align: center;
+}
+
+#navbar li {
+    display: inline-block;
+    color: black;
+    padding: 14px;
+    text-decoration: none;
+    border: solid 3px black;
+}
+
+.countdownHolder {
     text-align: center;
     font-family: Avengers;
     color: gray;
     font-size: 65px;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
+    background-color: #1F8A70;
+    width: 1250px;
+    border: solid 4px black;
+    border-radius: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 75px;
+}
+
+.countdownHolder > #countdown {
+    text-decoration: underline overline black;
+    text-underline-offset: 15px;
+    font-family: 'Times New Roman';
+    font-size: 55px;
+    margin-bottom: 75px;
+}
+
+.about {
+    text-align: center;
+}
+
+.whatHead {
+    text-align: center;
+    border: solid 2px black;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 250px;
+    border-top: none;
+    font-family: Avengers;
+    font-size: 45px;
+    color: gray;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.what > img {
+object-position: center;
+background-color: #1F8A70;
+border: solid 2px black;
+border-radius: 500px;
+width: 250px;
+height: auto;
+}
+
+.what > img:hover {
+    transform: scale(1.5);
+    margin-bottom: 50px;
+}
+
+.whyIHead {
+    text-align: center;
+    border: solid 2px black;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 250px;
+    border-top: none;
+    font-family: Avengers;
+    font-size: 35px;
+    color: gray;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.whyUHead {
+    text-align: center;
+    border: solid 2px black;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 250px;
+    border-top: none;
+    font-family: Avengers;
+    font-size: 35px;
+    color: gray;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.footer {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: overline underline 2px black;
 }

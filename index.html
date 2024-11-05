@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./style/style.css" rel="stylesheet" />
+    <script src="./scripts/timer.js" defer></script>
+    <script src="./scripts/nav.js" defer></script>
+
     <title>Countdown to Avengers Doomsday</title>
 </head>
 <body>
@@ -11,24 +14,36 @@
         <h1>Countdown to Avengers Doomsday</h1>
     </aside>
 
-    <aside class="nav">
-        <nav></nav>
-    </aside>
+    <div id="navbar">
+        <nav>
+            <ul>
+                <li id="toCount">Countdown</li>
+                <li id="toWhat">What is Avengers Doomsday?</li>
+                <li id="toWhyI">Why Am I Excited for Avengers Doomsday?</li>
+                <li id="toWhyU">Why Should YOU Be Excited for Avengers Doomsday?</li>
+            </ul>
+        </nav>
+    </div>
 
-    <aside class="countdown">
-        <h1>Countdown</h1>
+    <aside class="countdownHolder">
+        <h1>Countdown:</h1>
+        <aside id="countdown">
+        </aside>
     </aside>
 
     <aside class="about">
-        <h2>What is Avengers Doomsday?</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus animi ratione fugit error obcaecati soluta, atque consectetur corporis quo reiciendis asperiores eum, deleniti magnam maxime quos expedita sint, nemo dignissimos?
+        <h2 class="whatHead">What is Avengers Doomsday?</h2>
+        <p class="what"> <img src="./images/avengersdoomsdaylogo.png"> <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus animi ratione fugit error obcaecati soluta, atque consectetur corporis quo reiciendis asperiores eum, deleniti magnam maxime quos expedita sint, nemo dignissimos?</p>
         <br>
-        <h2>Why Am I Excited for Avengers Doomsday?</h2>
-        Dolorem enim beatae voluptatibus ut modi et earum quis reiciendis iusto perferendis. Perspiciatis iste quasi quas accusantium quis, eaque suscipit, consequatur praesentium voluptatibus quaerat unde nemo cupiditate autem obcaecati labore?
+        <h2 class="whyIHead">Why Am I Excited for Avengers Doomsday?</h2>
+        <p class="whyI">Dolorem enim beatae voluptatibus ut modi et earum quis reiciendis iusto perferendis. Perspiciatis iste quasi quas accusantium quis, eaque suscipit, consequatur praesentium voluptatibus quaerat unde nemo cupiditate autem obcaecati labore?</p>
         <br>
-        <h2>Why Should YOU Be Excited for Avengers Doomsday?</h2>
-        Sit modi ipsa voluptatem temporibus doloremque incidunt, fugiat, ab alias velit nemo, minus perferendis. Suscipit iusto esse, quas neque, nihil praesentium inventore mollitia at exercitationem tempora animi maiores asperiores labore.
-        </p>
+        <h2 class="whyUHead">Why Should YOU Be Excited for Avengers Doomsday?</h2>
+       <p class="whyU">Sit modi ipsa voluptatem temporibus doloremque incidunt, fugiat, ab alias velit nemo, minus perferendis. Suscipit iusto esse, quas neque, nihil praesentium inventore mollitia at exercitationem tempora animi maiores asperiores labore.</p>
+    </aside>
+
+    <aside class="footer">
+        <footer>All Marvel Comics characters and the distinctive likeness(es) thereof are TM & © Marvel Comics, © 1939–2024 Marvel Characters, Inc. ALL RIGHTS RESERVED. <br> </footer>
     </aside>
 
 </body>
