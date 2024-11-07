@@ -28,22 +28,28 @@ body {
 
 #navbar {
     position: sticky;
-    top: 0;
+    float: left;
+    top: 0px;
     overflow: hidden;
-    background-color:#B5E655;
+    width: 21%;
+    background-color: #B5E655;
     border: solid 3px black;
-    text-align: center;
 }
 
 #navbar li {
-    display: inline-block;
+    display: block;
+    float: left;
+    margin-top: 70px;
+    margin-right: 100px;
+    text-align: center;
     color: black;
+    font-family: Avengers;
     padding: 14px;
     text-decoration: none;
     border: solid 3px black;
 }
 
-.countdownHolder {
+#countdownHolder {
     text-align: center;
     font-family: Avengers;
     color: gray;
@@ -54,12 +60,11 @@ body {
     width: 1250px;
     border: solid 4px black;
     border-radius: 100px;
-    margin-left: auto;
     margin-right: auto;
-    margin-top: 75px;
+    margin-left: 450px;
 }
 
-.countdownHolder > #countdown {
+#countdownHolder #countdown {
     text-decoration: underline overline black;
     text-underline-offset: 15px;
     font-family: 'Times New Roman';
@@ -69,9 +74,13 @@ body {
 
 .about {
     text-align: center;
+    float: right;
+    border: solid 5px black;
 }
 
-.whatHead {
+
+
+#whatHead {
     text-align: center;
     border: solid 2px black;
     width: 500px;
@@ -86,21 +95,29 @@ body {
     -webkit-text-stroke-color: black;
 }
 
-.what > img {
-object-position: center;
-background-color: #1F8A70;
-border: solid 2px black;
-border-radius: 500px;
-width: 250px;
-height: auto;
+.what {
+    text-align: center;
+    font-family: Avengers;
+    font-size: 35px;
+    color: gray;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    border: solid 3px black;
+    border-radius: 45px;
 }
 
-.what > img:hover {
-    transform: scale(1.5);
-    margin-bottom: 50px;
+.what > a > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #1F8A70;
+    border: solid 2px black;
+    border-radius: 500px;
+    width: 250px;
+    height: auto;
 }
 
-.whyIHead {
+#whyIHead {
     text-align: center;
     border: solid 2px black;
     width: 500px;
@@ -115,7 +132,28 @@ height: auto;
     -webkit-text-stroke-color: black;
 }
 
-.whyUHead {
+.wrap {
+    display: block;
+    float: left;
+    width: 200px;
+    height: auto;
+    margin: -14px 0px 15px 100px;
+    border: solid 3px black;
+}
+
+.whyI {
+    text-align: justify;
+    font-family: Avengers;
+    font-size: 30px;
+    color: gray;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    margin-bottom: 75px;
+    border: solid 3px black;
+    border-radius: 45px;
+}
+
+#whyUHead {
     text-align: center;
     border: solid 2px black;
     width: 500px;
@@ -128,10 +166,32 @@ height: auto;
     color: gray;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
+}
+
+.whyU {
+    text-align: center;
+    font-family: Avengers;
+    font-size: 30px;
+    color: gray;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    border: solid 3px black;
+    border-radius: 45px;
+}
+
+.russoimg {
+    width: 300px;
+    height: auto;
+    border: solid 3px black;
 }
 
 .footer {
+    clear: both;
+    position: relative;
+    margin-top: -200px;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     text-decoration: overline underline 2px black;
+    background-color: #B5E655;
+    border: dashed 3px black;
 }
