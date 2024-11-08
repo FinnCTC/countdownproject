@@ -49,6 +49,19 @@ body {
     border: solid 3px black;
 }
 
+.video {
+    position: sticky;
+    float: left;
+    clear: both;
+    top: 560px;
+}
+
+.video iframe {
+    margin-top: 25px;
+    width: 135%;
+    height: 300px;
+}
+
 #countdownHolder {
     text-align: center;
     font-family: Avengers;
@@ -117,6 +130,13 @@ body {
     height: auto;
 }
 
+.what a {
+    text-decoration: none;
+    color: gray;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: purple;
+}
+
 #whyIHead {
     text-align: center;
     border: solid 2px black;
@@ -137,7 +157,7 @@ body {
     float: left;
     width: 200px;
     height: auto;
-    margin: -14px 0px 15px 100px;
+    margin: 40px 0px 15px 100px;
     border: solid 3px black;
 }
 
@@ -151,6 +171,13 @@ body {
     margin-bottom: 75px;
     border: solid 3px black;
     border-radius: 45px;
+}
+
+.whyI a {
+    text-decoration: none;
+    color: gray;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: purple;
 }
 
 #whyUHead {
@@ -177,6 +204,13 @@ body {
     -webkit-text-stroke-color: black;
     border: solid 3px black;
     border-radius: 45px;
+}
+
+.whyU a {
+    text-decoration: none;
+    color: gray;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: purple;
 }
 
 .russoimg {
